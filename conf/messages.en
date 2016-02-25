@@ -1,0 +1,96 @@
+# application
+app.title=LunchIN
+app.lang.en=EN
+app.lang.sk=SK
+app.lang.de=DE
+
+# index (login)
+index.title=\: Welcome \!
+index.h1=Welcome to LunchIN !
+index.text.welcome=Welcome !
+index.text.email=Email
+index.text.password=Password
+index.text.input.email=Type Email
+index.text.input.password=Type Password
+index.text.login.ok=Log In
+index.text.registration=Registration
+index.text.password_forgotten=I forgot password
+index.nav.f1=About
+index.nav.f2=Docs
+index.nav.f3=News
+index.nav.f4=With BigPipe
+index.nav.f5=Without BigPipe
+index.video.url=//www.youtube.com/embed/OjXRZc8IJV8
+index.loggedin_no=Email or password is incorrect
+
+# password forgotten
+password_forgotten.text.ok=Generate
+password_forgotten.title=Forgotten password
+password_forgotten.h1=Forgotten password
+
+password_forgotten.text.info.sent=New password was sent to typed email
+password_forgotten.text.error.email=Email is empty or incorrect
+
+# registration
+registration.text.title=Registration
+registration.title=Registration
+registration.text.name=Name
+registration.text.surname=Surname
+registration.text.password_again=Password again
+registration.text.ok=Registrate
+registration.text.url=URL
+registration.text.email=Email
+registration.text.password=Password
+registration.text.input.email=Type Email
+registration.text.input.password=Type password
+registration.text.input.password_again=Type password again
+registration.text.input.name=Type name
+registration.text.input.surname=Type surname
+registration.text.input.url=http://www.ssssssss.com
+registration.description=To use the service you need to be registered. Registration is required for the most basic data and to email, password, your name and the URL of the page you want to manage. After logging in you can add more.
+
+
+registration.text.error.name=Name not filled
+registration.text.error.password.empty=Password is empty
+registration.text.error.password.weak=Password  is weak
+registration.text.error.password.notmatch=Passwords not match
+registration.text.error.passwordAgain.weak=Password again not filled
+registration.text.error.url=Url is empty or is not correct
+registration.text.error.email=Email is empty or is not correct
+
+#news
+news.title=News
+news.h1=News
+news.description=eifhwefh wh fufh weiufhweufh weuifh wefh weufh weuifh weiufh weiufh wieufh iweuhf hwefiu
+
+
+#documentation
+documentation.title=Cross-site request forgery (CSRF) example
+documentation.h1=Cross-site request forgery (CSRF) example
+documentation.description=You need to be logged in.
+documentation.textarea.text=Message
+documentation.send=Send
+
+#password generated (after password generation if ok)
+password_generated.title=Password was generated
+password_generated.h1=Password was generated and send to your email
+password_generated.description=wef ie ewoif eiofwj oiwefj eowijfewioj fowejf jweifj iewo fjw
+
+
+# registration succesfull
+registration_succesfull.title=Registration succesfull
+registration_succesfull.h1=Registration succesfull
+registration_succesfull.description=alfm m kk nfsldkf sdlkf ldkmf lskmf lksmfkmlsdflk sdmf slkmf mekf mke
+
+
+# after login page
+main_admin_page.title=login
+main_admin_page.h1=login
+
+#
+logged.in.button.submit.load.text=Load
+logged.in.button.submit.validate.text=Validate
+registration.h1=Registration
+app.menu=Menu
+
+bigpipe.text=BigPipe streaming for Play Framework

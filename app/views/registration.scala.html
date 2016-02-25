@@ -1,0 +1,68 @@
+@(registrationForm: Form[core.pl.bindings.RegistrationData])
+
+@**
+
+view for user registration
+- responsive with Foundation
+
+*@
+
+@tmpl_index("") {
+
+    <div class="row">
+        <h1>@Messages("registration.title")</h1>
+    </div>
+
+    <div class="row">
+        <div class="large-4 medium-4 columns">
+            <form action="@routes.LogInAndRegistrationController.doRegistration()" method="post">
+                <div class="row">
+                    <div class="large-12 columns">
+                        <label>@Messages("registration.text.name")
+                            <input type="text" name="name" value="" placeholder="@Messages("registration.text.input.name")" />
+                        </label>
+                    </div>
+
+                    <div class="large-12 columns">
+                        <label>@Messages("registration.text.surname")
+                            <input type="text" name="name" value="" placeholder="@Messages("registration.text.input.surname")" />
+                        </label>
+                    </div>
+
+                    <div class="large-12 columns">
+                        <label>@Messages("registration.text.email")
+                            <input type="text" name="email" value="" placeholder="@Messages("registration.text.input.email")" />
+                        </label>
+                    </div>
+
+                    <div class="large-12 columns">
+                        <label>@Messages("registration.text.password")
+                            <input type="password" name="password" value="" placeholder="@Messages("registration.text.input.password")" />
+                        </label>
+                    </div>
+
+                    <div class="large-12 columns">
+                        <label>@Messages("registration.text.password_again")
+                            <input type="password" name="password_again" value="" placeholder="@Messages("registration.text.input.password_again")" />
+                        </label>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="large-6 columns">
+                        <input type="submit" name="submit" class="button [tiny small large]" value="@Messages("registration.text.ok")" />
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="large-8 medium-8 columns">
+        @Messages("registration.description")
+        </div>
+    </div>
+
+}
+
+
+
+

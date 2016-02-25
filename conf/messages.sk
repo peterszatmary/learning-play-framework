@@ -1,0 +1,96 @@
+# application
+app.title=LunchIN
+app.menu=Menu
+app.lang.en=EN
+app.lang.sk=SK
+app.lang.de=DE
+
+# index page (login)
+index.title=: Vitajte !
+index.h1=Vitajte na LunchIN !
+index.text.welcome=Vitajte !
+index.text.email=Email
+index.text.password=Heslo
+index.text.input.email=Zadaj Email
+index.text.input.password=Zadaj Heslo
+index.text.login.ok=Prihlas
+index.text.registration=Registracia
+index.text.password_forgotten=Zabudol som heslo
+index.nav.f1=O sluzbe
+index.nav.f2=Dokumentacia
+index.nav.f3=Novinky
+index.nav.f4=S BigPipe
+index.nav.f5=Bez BigPipe
+index.video.url=//www.youtube.com/embed/OjXRZc8IJV8
+index.loggedin_no=Email alebo heslo neboli zadane spravne
+
+# password forgotten
+password_forgotten.text.ok=Generuj
+password_forgotten.title=Zabudnute heslo
+password_forgotten.h1=Zabudnute heslo
+
+password_forgotten.text.info.sent=Nove heslo bolo zaslane na Vami zadany email
+password_forgotten.text.error.email=Email nie je zadany alebo je nespravne zadany
+
+# registration
+registration.title=Registracia
+registration.h1=Registracia
+registration.text.name=Meno
+registration.text.surname=Priezvisko
+registration.text.password_again=Heslo esteraz
+registration.text.ok=Registrovat
+registration.text.url=URL
+registration.text.email=Email
+registration.text.password=Heslo
+registration.text.input.email=Zadaj Email
+registration.text.input.password=Zadaj Heslo
+registration.text.input.password_again=Zadaj Heslo esteraz
+registration.text.input.name=Zadaj Meno
+registration.text.input.surname=Zadaj priezvisko
+registration.text.input.url=http://www.ssssssss.sk
+registration.description=Pre pouzivanie sluzby je potrebne sa registrovat. Pre registraciu sa vyzaduju najzakladnejsie udaje a to email, heslo, vase meno a url stranky ktoru chcete spravovat. Po prihlaseni je mozne pridavat dalsie.
+
+registration.text.error.name=Meno nebolo zadane
+registration.text.error.password.empty=Heslo nie je zadane
+registration.text.error.password.weak=Heslo je slabe
+registration.text.error.password.notmatch=Hesla sa nezhoduju
+registration.text.error.passwordAgain.weak=Heslo pre kontrolu nie je zadane
+registration.text.error.url=Url adresa nie je zadana alebo je nespravne zadana
+registration.text.error.email=Email nie je zadany alebo je nespravne zadany
+
+#news
+news.title=Novinky
+news.h1=Novinky
+news.description=eifhwefh wh fufh weiufhweufh weuifh wefh weufh weuifh weiufh weiufh wieufh iweuhf hwefiu
+
+
+
+#documentation
+documentation.title=Cross-site request forgery (CSRF) priklad
+documentation.h1=Cross-site request forgery (CSRF) priklad
+documentation.description=Musite byt prihlaseny.
+documentation.textarea.text=Sprava
+documentation.send=Odoslat
+
+#password generated (after password generation if ok)
+password_generated.title=Heslo bolo vygenerovane
+password_generated.h1=Heslo bolo vygenerovane a poslane na Vas email
+password_generated.description=wef ie ewoif eiofwj oiwefj eowijfewioj fowejf jweifj iewo fjw
+
+# registration succesfull
+registration_succesfull.title=Registracia uspesna
+registration_succesfull.h1=Registracia uspesna
+registration_succesfull.description=alfm m kk nfsldkf sdlkf ldkmf lskmf lksmfkmlsdflk sdmf slkmf mekf mke
+
+# after login page
+main_admin_page.title=Prihlasenie
+main_admin_page.h1=Prihlasenie
+
+#
+logged.in.button.submit.load.text=Nacitaj
+logged.in.button.submit.validate.text=Validuj
+registration.text.title=Registracia
+
+bigpipe.text=BigPipe streaming pre Play Framework
+
+

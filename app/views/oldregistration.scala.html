@@ -1,0 +1,37 @@
+@(registrationForm: Form[core.pl.bindings.RegistrationData])
+
+
+
+@tmpl_index("") {
+
+
+    <h1>Registration</h1>
+    @helper.form(action = routes.LogInAndRegistrationController.doRegistration()) {
+        <fieldset>
+            <legend>Registrate yourself here</legend>
+            @helper.inputText(registrationForm("userName"))
+
+
+
+            @helper.inputText(registrationForm("email"))
+            @helper.textarea(registrationForm("email"))
+        </fieldset>
+        <input type="submit" value="OK" />
+    }
+
+
+
+    @for(error <- registrationForm.errors() ) {
+        <p>ERROR:  @error</p>
+    }
+
+    @if(registrationForm.errors.get("email") == null) {
+        <p>NIE V  EMAILI JE CHYBA</p>
+    }
+
+
+
+    @flash.get("ha1")<br />
+    @flash.get("ha2")<br />
+
+}

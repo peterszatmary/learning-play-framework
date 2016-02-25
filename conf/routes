@@ -1,0 +1,40 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET         /                           @controllers.Application.index()
+GET         /todo                       @controllers.Application.todo()
+GET         /scala                      @controllers.Application.scala()
+GET         /users                      @controllers.Application.users()
+GET         /createUser                 @controllers.Application.createUser()
+GET         /docs                       @controllers.Application.docs()
+POST        /sendFeedback               @controllers.Application.sendFeedback()
+
+GET         /withbp                     @controllers.BigPipeController.withbp()
+GET         /withoutbp                  @controllers.BigPipeController.withoutbp()
+
+POST        /login                      @controllers.LogInAndRegistrationController.doLogin()
+POST        /doRegistration             @controllers.LogInAndRegistrationController.doRegistration()
+GET         /registration               @controllers.LogInAndRegistrationController.registration()
+GET         /passwordForgotten          @controllers.LogInAndRegistrationController.passwordForgotten()
+POST        /doPasswordForgotten        @controllers.LogInAndRegistrationController.doPasswordForgotten()
+POST        /logout                     @controllers.LogInAndRegistrationController.logout()
+
+POST        /sk                         @controllers.ChangeLanguageController.changeLangSk()
+POST        /de                         @controllers.ChangeLanguageController.changeLangDe()
+POST        /en                         @controllers.ChangeLanguageController.changeLangEn()
+POST        /change                     @controllers.ChangeLanguageController.changeLanguage()
+
+GET         /homepage                   @controllers.HomePageController.index()
+
+
+# Map static resources from the /public folder to the /assets URL path
+# IN OLD ONE
+GET         /assets/*file               controllers.Assets.at(path="/public", file)
+# GET         /assets/*file             controllers.Assets.versioned(path="/public", file: Asset) IN NEW ONE
+
+# route file knows regular expressons
+# routes with default value  (page: Int ?= 0) should be used for method params
+# fixed values as parameter  (page: Int = 0)
+# first route is first compute also if there are many that matchedf

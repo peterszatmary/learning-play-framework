@@ -1,0 +1,61 @@
+@(message: String, loginData: core.pl.bindings.LoginData)
+
+@**
+
+index page of application
+- responsive with Foundation
+
+*@
+
+@tmpl_index("") {
+
+
+<div class="row">
+    <h1>@Messages("index.h1")</h1>
+</div>
+
+<div class="row">
+    <div class="large-4 medium-4 columns">
+        <form action="@routes.LogInAndRegistrationController.doLogin()" method="post">
+            <div class="row">
+                <div class="large-12 columns">
+                    <label>@Messages("index.text.email")
+                        <input type="text" name="email" value="@if(null != loginData) {@loginData.getEmail()}" placeholder="@Messages("index.text.input.email")" />
+                    </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="large-12 columns">
+                    <label>@Messages("index.text.password")
+                        <input type="password" name="password" value="@if(null != loginData) {@loginData.getPassword()}" placeholder="@Messages("index.text.input.password")" />
+                    </label>
+                </div>
+                <div class="large-6 columns">
+                    <input type="submit" class="button [tiny small large]" value="@Messages("index.text.login.ok")" />
+                </div>
+
+                <div class="large-6 columns">
+                    <br />
+                    <a href="@routes.LogInAndRegistrationController.registration()">@Messages("index.text.registration")</a><br />
+
+                </div>
+
+            </div>
+            <a href="@routes.LogInAndRegistrationController.passwordForgotten()">@Messages("index.text.password_forgotten")</a>
+            <br /><p class="notValidText">@message</p>
+        </form>
+    </div>
+    <div class="large-8 medium-8 columns">
+
+        <div class="flex-video">
+            <iframe style="max-width:500px;max-height:300px;" src="@Messages("index.video.url")" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+    </div>
+</div>
+
+
+}
+
+
+

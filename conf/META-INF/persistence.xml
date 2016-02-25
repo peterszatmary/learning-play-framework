@@ -1,0 +1,21 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+             version="2.0">
+    <persistence-unit name="kunderaMongoDb_PU">
+        <provider>com.impetus.kundera.KunderaPersistence</provider>
+        <class>models.User</class>
+        <class>models.Restaurant</class>
+        <class>models.Menu</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="kundera.nodes" value="localhost" />
+            <property name="kundera.port" value="27017" />
+            <property name="kundera.keyspace" value="lunchin" /><!-- DB name -->
+            <property name="kundera.dialect" value="mongodb" />
+            <property name="kundera.client.lookup.class" value="com.impetus.client.mongodb.MongoDBClientFactory" />
+            <property name="kundera.cache.provider.class" value="com.impetus.kundera.cache.ehcache.EhCacheProvider" />
+            <property name="kundera.cache.config.resource" value="/ehcache-test.xml" />
+        </properties>
+    </persistence-unit>
+</persistence>

@@ -1,0 +1,96 @@
+# application
+app.title=LunchIN
+app.lang.en=EN
+app.lang.sk=SK
+app.lang.de=DE
+
+# index (login)
+index.text.welcome=Wilkomm !
+index.text.email=Email
+index.text.password=Kennwort
+index.text.input.email=Schrieb Email
+index.text.input.password=Schrieb Password
+index.text.login.ok=Melde dich
+index.text.registration=Anmeldung
+index.text.password_forgotten=Ich habe mein Kennwort vergessen.
+index.nav.f1=Uber
+index.nav.f2=Dokument
+index.nav.f3=Neues
+index.nav.f4=Mit BigPipe
+index.nav.f5=Ohne BigPipe
+index.title=\: Willkommen \!
+index.h1=Welcome to LunchIN \!
+index.video.url=//www.youtube.com/embed/OjXRZc8IJV8
+index.loggedin_no=Email oder Kenwort ist nicht korekt
+
+# password forgotten
+password_forgotten.text.ok=generieren
+password_forgotten.title=verschollen Kennwort\
+
+password_forgotten.h1=verschollen Kennwort
+
+password_forgotten.text.info.sent=Neues Kennwort geschickt wurde, um E-Mail eingegeben
+password_forgotten.text.error.email=Email ist leer oder falsche
+
+# registration
+registration.text.title=Anmeldung
+registration.h1=Anmeldung
+registration.title=Anmeldung
+registration.text.name=Name
+registration.text.surname=Nachname
+registration.text.password_again=Kennword noch einmal
+registration.text.ok=Registrieren
+registration.text.url=URL
+registration.text.email=Email
+registration.text.password=Kenwort
+registration.text.input.email=Schreib Email
+registration.text.input.password=Schreib password
+registration.text.input.password_again=Schreib Kennwort noch einmal
+registration.text.input.name=Schreib Vorname
+registration.text.input.surname=Schreib Nachname
+registration.text.input.url=http\://www.ssssssss.de
+registration.description=Um den Dienst müssen Sie registriert sein zu verwenden. Die Registrierung ist für die Basisdaten erforderlich ist, und um eine E-Mail, Passwort, Ihren Namen und die URL der Seite, die Sie verwalten möchten. Nach dem Einloggen können Sie mehr hinzuzufügen.
+
+registration.text.error.name=Name ist leer
+registration.text.error.password.empty=Kennwort ist leer
+registration.text.error.password.weak=Kennwort ist schwach
+registration.text.error.password.notmatch=Kennworten sind nicht dasselbe
+registration.text.error.passwordAgain.weak=Kennwort ist leer
+registration.text.error.url=Url ist leer oder schlecht
+registration.text.error.email=EMail ist leer oder schlecht
+
+#news
+news.title=Nachrichten
+news.h1=Nachrichten
+news.description=eifhwefh wh fufh weiufhweufh weuifh wefh weufh weuifh weiufh weiufh wieufh iweuhf hwefiu
+
+#documentation
+documentation.title=Cross-site request forgery (CSRF) beispiel
+documentation.h1=Cross-site request forgery (CSRF) beispiel
+documentation.description=Sie brauchen logged on sein.
+documentation.textarea.text=Nachricht
+documentation.send=Schicken
+
+#password generated (after password generation if ok)
+password_generated.title=Kennwort wurde generiert
+password_generated.h1=Kennwort wurde erzeugt und an Ihre E-Mail gesendet
+password_generated.description=wef ie ewoif eiofwj oiwefj eowijfewioj fowejf jweifj iewo fjw
+
+
+# registration succesfull
+registration_succesfull.title=Anmeldung ist erfolgreich
+registration_succesfull.h1=Anmeldung ist erfolgreich
+registration_succesfull.description=alfm m kk nfsldkf sdlkf ldkmf lskmf lksmfkmlsdflk sdmf slkmf mekf mke
+
+
+# after login page
+main_admin_page.title=Einloggen
+main_admin_page.h1=Einloggen
+
+
+#
+logged.in.button.submit.load.text=Laden
+logged.in.button.submit.validate.text=bestätigen / prüfen
+app.menu=Menu
+
+bigpipe.text=BigPipe streaming fuer Play Framework
